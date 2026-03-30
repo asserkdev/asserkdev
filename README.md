@@ -24,3 +24,9 @@ Developing small complete games and scalable long-term applications.
 ## 📫 Contact
 
 Email: asser.k.dev@gmail.com
+
+---
+
+## 💰 donation or support
+
+insta pay: 01007379630

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Cambric is an independent software company that builds apps for clients and ships its own products. This repository contains the official website.
+Cambric is an independent software company that builds apps for clients. This repository contains the official website.
 
 ## What We Do
 
@@ -13,15 +13,6 @@ Cambric is an independent software company that builds apps for clients and ship
 - Mobile Apps
 - SaaS Products
 - API Development
-
-### In-House Products
-Five products under development with one consistent design language:
-
-1. **Forma** (v0.3) — Document structuring tool
-2. **Tempo** (v0.2) — Time tracking for focused work
-3. **Pulse** (v0.1) — Team communication, distilled
-4. **Metric** (v0.1) — Analytics without complexity
-5. **Panel** (v0.2) — Dashboards for modern teams
 
 ## Tech Stack
 
@@ -49,9 +40,9 @@ The site is deployed automatically to GitHub Pages at: https://asserkdev.github.
 
 ## Contact
 
-- Email: hello@cambric.io
-- GitHub: @cambric
-- LinkedIn: /company/cambric
+- Email: asser.k.dev@gmail.com
+- Email: asserk651@gmail.com
+- Phone: +20 1007379630
 
 ---
 

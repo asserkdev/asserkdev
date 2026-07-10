@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMBRIC — Software Studio</title>
+    <meta name="description" content="Cambric is a software studio that builds apps for clients and ships its own products. Professional, minimal, modern software development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">CAMBRIC</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge reveal">Software Studio</div>
+            <h1 class="hero-title reveal">CAMBRIC</h1>
+            <p class="hero-tagline reveal">BUILD. SHIP. REPEAT.</p>
+            <p class="hero-description reveal">
+                We build software for clients and ship our own products. 
+                Clean code, modern design, delivered fast.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="#services" class="btn btn-primary">Our Services</a>
+                <a href="#products" class="btn btn-secondary">View Products</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-grid">
+                <div class="grid-line horizontal"></div>
+                <div class="grid-line horizontal"></div>
+                <div class="grid-line horizontal"></div>
+                <div class="grid-line vertical"></div>
+                <div class="grid-line vertical"></div>
+                <div class="grid-line vertical"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Client Services</h2>
+                <p class="section-description">
+                    We partner with businesses and individuals to build software that solves real problems.
+                    From MVPs to production systems, we deliver quality on time.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Applications</h3>
+                    <p class="service-description">
+                        Full-stack web apps built with modern frameworks. 
+                        Responsive, fast, and scalable from day one.
+                    </p>
+                    <div class="service-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                            <line x1="12" y1="18" x2="12" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Mobile Apps</h3>
+                    <p class="service-description">
+                        Native and cross-platform mobile applications 
+                        that provide seamless experiences on iOS and Android.
+                    </p>
+                    <div class="service-tags">
+                        <span>React Native</span>
+                        <span>Flutter</span>
+                        <span>Swift</span>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">SaaS Products</h3>
+                    <p class="service-description">
+                        Launch your SaaS idea with a solid technical foundation. 
+                        Payments, auth, dashboards — we handle the stack.
+                    </p>
+                    <div class="service-tags">
+                        <span>SaaS</span>
+                        <span>API</span>
+                        <span>Scaling</span>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">API Development</h3>
+                    <p class="service-description">
+                        REST and GraphQL APIs designed for performance and developer experience. 
+                        Well-documented, thoroughly tested.
+                    </p>
+                    <div class="service-tags">
+                        <span>REST</span>
+                        <span>GraphQL</span>
+                        <span>Documentation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="services-cta reveal">
+                <div class="cta-content">
+                    <h3>Have a project in mind?</h3>
+                    <p>We take on a limited number of projects to ensure quality. Let's talk about yours.</p>
+                    <a href="#contact" class="btn btn-accent">Start a Conversation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section section-dark">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Our Ecosystem</span>
+                <h2 class="section-title">In-House Products</h2>
+                <p class="section-description">
+                    Five products, one consistent design language. Each built to solve specific problems, 
+                    each evolving over time from 0.1 to 1.0 and beyond.
+                </p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card reveal">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <span class="product-version">v0.3</span>
+                    </div>
+                    <h3 class="product-title">Forma</h3>
+                    <p class="product-tagline">Document structuring made simple</p>
+                    <p class="product-description">
+                        A minimal writing tool focused on structured documents. 
+                        Perfect for specs, documentation, and long-form content.
+                    </p>
+                    <div class="product-status">
+                        <span class="status-dot in-progress"></span>
+                        <span>Active Development</span>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <span class="product-version">v0.2</span>
+                    </div>
+                    <h3 class="product-title">Tempo</h3>
+                    <p class="product-tagline">Time tracking for focused work</p>
+                    <p class="product-description">
+                        Simple time tracking that helps you understand where hours go. 
+                        Built for freelancers and small teams.
+                    </p>
+                    <div class="product-status">
+                        <span class="status-dot in-progress"></span>
+                        <span>Active Development</span>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                        <span class="product-version">v0.1</span>
+                    </div>
+                    <h3 class="product-title">Pulse</h3>
+                    <p class="product-tagline">Team communication, distilled</p>
+                    <p class="product-description">
+                        Async-first team messaging. No noise, just the conversations that matter. 
+                        Built for distributed teams.
+                    </p>
+                    <div class="product-status">
+                        <span class="status-dot planned"></span>
+                        <span>Early Development</span>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 3v18h18"/>
+                                <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+                            </svg>
+                        </div>
+                        <span class="product-version">v0.1</span>
+                    </div>
+                    <h3 class="product-title">Metric</h3>
+                    <p class="product-tagline">Analytics without the complexity</p>
+                    <p class="product-description">
+                        Simple analytics for small businesses. Track what matters 
+                        without drowning in data you don't need.
+                    </p>
+                    <div class="product-status">
+                        <span class="status-dot planned"></span>
+                        <span>Early Development</span>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="3" y1="9" x2="21" y2="9"/>
+                                <line x1="9" y1="21" x2="9" y2="9"/>
+                            </svg>
+                        </div>
+                        <span class="product-version">v0.2</span>
+                    </div>
+                    <h3 class="product-title">Panel</h3>
+                    <p class="product-tagline">Dashboards for modern teams</p>
+                    <p class="product-description">
+                        Customizable dashboard builder. Connect your data sources 
+                        and create views that actually work for your workflow.
+                    </p>
+                    <div class="product-status">
+                        <span class="status-dot in-progress"></span>
+                        <span>Active Development</span>
+                    </div>
+                </div>
+            </div>
+            <div class="products-note reveal">
+                <p>All products follow semantic versioning (0.x → 1.0 → 2.0). Each will be publicly released when ready.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content reveal">
+                    <span class="section-label">About Us</span>
+                    <h2 class="section-title">Built for Quality</h2>
+                    <p class="about-text">
+                        Cambric started with a simple belief: good software doesn't have to be complicated.
+                        We focus on clean architecture, thoughtful design, and code that others can maintain.
+                    </p>
+                    <p class="about-text">
+                        We take on client work to fund our own products. This hybrid model means we're 
+                        selective about what we build — for others and for ourselves. Every project gets 
+                        our full attention.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <span class="value-number">01</span>
+                            <div>
+                                <h4>Quality First</h4>
+                                <p>We'd rather deliver one excellent thing than five mediocre ones.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-number">02</span>
+                            <div>
+                                <h4>Clear Communication</h4>
+                                <p>No jargon, no surprises. You'll always know where your project stands.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-number">03</span>
+                            <div>
+                                <h4>Ship Fast, Iterate</h4>
+                                <p>We believe in momentum. Working software beats perfect plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">In-House Products</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-plus">%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-accent">
+        <div class="container">
+            <div class="contact-content reveal">
+                <h2 class="contact-title">Let's Build Something</h2>
+                <p class="contact-description">
+                    Have a project in mind? Interested in our products? 
+                    We'd love to hear from you.
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:hello@cambric.io" class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">hello@cambric.io</span>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">@cambric</span>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">/company/cambric</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo">CAMBRIC</span>
+                    <p class="footer-tagline">BUILD. SHIP. REPEAT.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="mailto:hello@cambric.io">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cambric. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
